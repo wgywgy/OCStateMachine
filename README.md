@@ -1,7 +1,7 @@
 # OCStateMachine
 A simple StateMachine written in objective c.
 
-中文博客说明：
+中文博客说明：https://www.jianshu.com/p/8e3c01ecb640
 
 
 It contain two main Class:
@@ -11,7 +11,8 @@ PCStateMachine: a class which combine state and provide method to trans state an
 It use Like GKStateMachine, But support lower iOS Version, Hope use happy.
 
 How to Use:
-Step 1:
+
+#####Step 1:
 You can define subclass of PCState:
 ```
 @implementation PCGreenState
@@ -25,7 +26,7 @@ You can define subclass of PCState:
 @end
 ```
 
-Step 2:
+#####Step 2:
 Combine StateMachine with state:
 ```
 // Create the states
