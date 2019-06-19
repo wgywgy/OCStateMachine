@@ -12,7 +12,7 @@ It use Like GKStateMachine, But support lower iOS Version, Hope use happy.
 
 How to Use:
 
-#####Step 1:
+##### Step 1:
 You can define subclass of PCState:
 ```
 @implementation PCGreenState
@@ -26,7 +26,7 @@ You can define subclass of PCState:
 @end
 ```
 
-#####Step 2:
+##### Step 2:
 Combine StateMachine with state:
 ```
 // Create the states
